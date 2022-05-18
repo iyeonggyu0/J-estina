@@ -23,3 +23,20 @@ header{width: 100%; height: 192px;}
 #var_b_r{font-size: 16px; font-family: Noto Sans KR;}
 #var_b_r a{padding-left: 20px; font-weight: 300;}
 #var2{display: flex; justify-content: space-between;}
+
+
+/* section */
+
+/* main_banner */
+#main_banner{width: 100%; height: 550px; background-repeat:no-repeat; background-size: 100%; background-position: center center; background-image: url(./img/main_banner.jpg); position: relative;}
+#main_banner_prev{width: 26px; height: 48px; position: absolute; top: 50%; left: 2rem;
+background-image: url(./img/btn_arrow_prev.png); background-size: contain;}
+#main_banner_next{width: 26px; height: 48px; position: absolute; top: 50%; right: 2rem;
+background-image: url(./img/btn_arrow_next.png); background-size: contain;}
+
+/* section_top_coupon */
+#section_top_coupon{width: 1140px; height: 175px; margin: 0 auto; position: relative; margin-top: 40px; image-rendering: -webkit-optimize-contrast;}
+#section_top_coupon_l{width: 563px; height: 175px; position: absolute; left: 0px;
+    background-image: url(./img/section_top_coupon_l.jpg); background-size: cover; background-repeat: no-repeat;}
+#section_top_coupon_r{width: 563px; height: 175px; position: absolute; right: 0px;
+    background-image: url(./img/section_top_coupon_r.jpg); background-size: cover; background-repeat: no-repeat;}
