@@ -13,12 +13,12 @@ header{width: 100%; height: 192px;}
 #var > div{width: 1140px; height: 132px; margin: 0 auto;}
 
 #var1{width: 1140px; height: 30px; display: flex; justify-content: space-between; margin-top: 30px; margin-bottom: 28px;}
-#logo_img{width: 210px; height: 48px; background-image: url(./img/jestina_logo.png); background-repeat: no-repeat; background-size: contain;}
+#logo_img{width: 190px; height: 30px; background-image: url(./img/jestina_logo.png); background-repeat: no-repeat; background-size: contain;}
 #var_t_r{width: 270px; height: 18px; display: flex; justify-content: end; margin-right: 10px; margin-top: 8px; }
 #var_t_r > a {padding-left: 15px; font-size: 13px; font-weight: 100; font-family: NanumGothic;}
 
 #var_b_l{font-size: 16px; font-weight: 500;}
-#var_b_l a{padding-right: 25px;}
+#var_b_l a{padding-right: 30px;}
 
 #var_b_r{font-size: 16px; font-family: Noto Sans KR;}
 #var_b_r a{padding-left: 20px; font-weight: 300;}
@@ -40,3 +40,18 @@ background-image: url(./img/btn_arrow_next.png); background-size: contain;}
     background-image: url(./img/section_top_coupon_l.jpg); background-size: cover; background-repeat: no-repeat;}
 #section_top_coupon_r{width: 563px; height: 175px; position: absolute; right: 0px;
     background-image: url(./img/section_top_coupon_r.jpg); background-size: cover; background-repeat: no-repeat;}
+
+/* special_plan  2537 1639 */
+#section_main{width: 100%; height: 1900px; border: 2px solid blue;}
+#section_SpecialPlan{width: 1140px; height: 1050px; margin: 0 auto; margin-top: 100px;
+    border: 2px solid skyblue;}
+#section_SpecialPlan p {font-size: 25px; font-family: Noto Sans KR; font-weight: 500; margin-bottom: 40px;}
+
+#special_plan_t{width: 1140px; height: 510px; display: flex; justify-content: center; border: 2px solid seagreen;}
+#SpecialPlan_main_img{width: 429px; height: 510px; background-image: url(./img/special_plan/special_plan_main.jpg);
+    border: 2px solid skyblue;}
+
+/* special_plan  여기서부터 고치기*/
+#special_plan{width: 711px; height: 510px; border: 1px solid greenyellow;}
+#SpecialPlan_img{margin: 0 auto; width: 696px; height: 390px; margin-top: ;
+    border: 1px solid greenyellow;}
