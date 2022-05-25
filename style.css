@@ -42,7 +42,7 @@ background-image: url(./img/btn_arrow_next.png); background-size: contain;}
     background-image: url(./img/section_top_coupon_r.jpg); background-size: cover; background-repeat: no-repeat;}
 
 /* special_plan  2537 1639 */
-#section_main{width: 100%; height: 1900px; border: 2px solid blue;}
+#section_main{width: 100%; height: 2100px;}
 #section_SpecialPlan{width: 1140px; height: 1050px; margin: 0 auto; margin-top: 100px;
     margin-bottom: 100px;}
 #section_SpecialPlan > p {font-size: 25px; font-family: Noto Sans KR; font-weight: 500; margin-bottom: 40px;}
@@ -69,3 +69,60 @@ background-image: url(./img/btn_arrow_next.png); background-size: contain;}
 #section_special_plan_b > div:nth-child(1){background-image: url(./img/special_plan/special_plan_bottom1.jpg); background-size: cover;}
 #section_special_plan_b > div:nth-child(2){background-image: url(./img/special_plan/special_plan_bottom2.jpg); background-size: cover;}
 #section_special_plan_b > div:nth-child(3){background-image: url(./img/special_plan/special_plan_bottom3.jpg); background-size: cover;}
+
+#section_NEW{width: 1140px; height: 390px; margin: 0 auto; display: flex; justify-content: center; margin-bottom: 50px;}
+#NEW_text{width: 175px; height: 323px; cursor: pointer;}
+li{list-style: none; line-height: 40px; font-size: 16px; color: rgb(88, 88, 88);}
+li:nth-child(1){color: #000; text-decoration:underline;}
+li:hover{color: #000; text-decoration:underline; cursor: pointer;}
+#NEW_text1{font-size: 36px; font-weight: 700;}
+small{font-size: 16px; font-weight: 300; padding-left: 9px;}
+#NEW_Product{width: 965px; height: 370px;display: flex; justify-content: space-around;}
+
+.NewBest_Product_div{width: 220px; height: 270px; background-color: rgb(244, 244, 244);
+    background-size: contain; background-position: center center; background-size: 100%; transition: all 0.3s; position: relative; cursor: pointer;}
+#NEW_Product_div1{background-image: url(./img/New/New_1.png);}
+#NEW_Product_div1:hover{background-image: url(./img/New/New_1_hover.png);}
+#NEW_Product_div2{background-image: url(./img/New/New_2.png);}
+#NEW_Product_div2:hover{background-image: url(./img/New/New_2_hover.png);}
+#NEW_Product_div3{background-image: url(./img/New/New_3.png);}
+#NEW_Product_div3:hover{background-size: 110%;}
+#NEW_Product_div4{background-image: url(./img/New/New_4.png);}
+#NEW_Product_div4:hover{background-image: url(./img/New/New_4_hover.png);}
+
+.NewBest_Product_div + div{margin-top: 10px; font-size: 14px; text-align: center; line-height: 25px;}
+.NEW_Product_div_link{width: 220px; height: 0px; background-color: rgba(38, 38, 38, 0.354); cursor: auto; position: absolute; bottom: 0px; transition: all 0.3s;}
+.NEW_Product_text{text-align: center; color: #fff; font-size: 14px; margin-top: 7px; opacity: 0;transition: all 0.3s;}
+.NewBest_Product_div:hover > .NEW_Product_div_link{height: 37px;}
+.NewBest_Product_div:hover .NEW_Product_text{opacity: 1;}
+
+
+
+#section_BEST{width: 1140px; height: 390px; margin: 0 auto; display: flex; justify-content: center;}
+#BEST_text{width: 175px; height: 323px; cursor: pointer;}
+li{list-style: none; line-height: 40px; font-size: 16px; color: rgb(88, 88, 88);}
+li:nth-child(1){color: #000; text-decoration:underline;}
+li:hover{color: #000; text-decoration:underline; cursor: pointer;}
+#BEST_text1{font-size: 36px; font-weight: 700;}
+small{font-size: 16px; font-weight: 300; padding-left: 9px;}
+#BEST_Product{width: 965px; height: 370px;display: flex; justify-content: space-around;}
+
+#BEST_Product_div1{background-image: url(./img/Best/Best_1.jpg);}
+#BEST_Product_div1:hover{background-image: url(./img/Best/Best_1_hover.png);}
+#BEST_Product_div2{background-image: url(./img/Best/Best_2.jpg);}
+#BEST_Product_div2:hover{background-image: url(./img/Best/Best_2_hover.jpg);}
+#BEST_Product_div3{background-image: url(./img/Best/Best_3.jpg);}
+#BEST_Product_div3:hover{background-image: url(./img/Best/Best_3_hover.png);}
+#BEST_Product_div4{background-image: url(./img/Best/Best_4.jpg);}
+#BEST_Product_div4:hover{background-image: url(./img/Best/Best_4_hover.png);}
+
+#youtube{width: 990px; height: 650px; margin: 0 auto; margin-top: 100px;}
+
+#border_t{width: 100%; height: 10px; margin-top: 50px; border-bottom: 1px solid rgb(116, 116, 116);}
+
+footer{width: 100%; height: 260px; border-top: 2px solid #000; margin-top: 750px;}
+footer > div{width: 1140px; height: 260px; margin: 0 auto;}
+footer > div > p{ margin-top: 20px; font-size: 45px;}
+
+.text1{font-size: 14px; line-height: 25px; margin-top: 15px;}
+#text1{padding-top: 15px;}
